@@ -159,6 +159,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=131072 \
     hwui.render_dirty_regions=false
 
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.sf.lcd_density=240
+
 PRODUCT_TAGS += dalvik.gc.type-precise
 
 # Set default USB interface
