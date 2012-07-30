@@ -21,7 +21,6 @@ on early-init
     symlink /storage/sdcard1 /emmc
     symlink /storage/sdcard1 /mnt/emmc
     symlink /storage/usbdisk0 /usbdisk0
-    symlink /storage/usbdisk0 /usbdisk0
     symlink /storage/usbdisk0 /mnt/usbdisk0
 
 # Disable CFQ slice idle delay
